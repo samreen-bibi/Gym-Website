@@ -1,0 +1,231 @@
+/* Resetting default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Setting up the main background color */
+body {
+    background-color: linear-gradient(to bottom, #FB5B21 50%, #f4f4f4 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Cover background for the login box */
+.material-half-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #ff5722;
+    text-align: center;
+    color: #FFFFFF;
+}
+.material-half-bg h1{
+
+    font-size: 40px;
+    margin-top: 80px;
+}
+.cover {
+    background-color: #ff5722;
+    height: 100%;
+}
+
+/* Logo and header section */
+.login-content {
+    text-align: center;
+    color: #FFFFFF;
+}
+.login-content  h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Login Box styling */
+.login-box {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Form heading styling */
+.login-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.btn-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-container input[type="submit"]:hover {
+    background-color: #e64a19;
+}
+
+/* Links for navigation */
+a {
+    color: #ff5722;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.errorWrap, .succWrap {* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #FB5B21 50%, #f4f4f4 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: #FFFFFF;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #FB5B21;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #FB5B21;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-box button:hover {
+    background: #E14A1C;
+}
+
+.login-box a {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #FB5B21;
+    text-decoration: none;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Style for the forgot password form */
+.forget-form {
+    display: none;
+    
+}
+
+/* Flip effect for forgot password */
+.flipped .login-form {
+    display: none;
+}
+
+.flipped .forget-form {
+    display: block;
+}
+
+.forget-form h3, .login-head {
+    color: #ff5722;
+}

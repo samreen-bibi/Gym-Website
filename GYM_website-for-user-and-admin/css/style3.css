@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #FB5B21 50%, #f4f4f4 50%);
+}
+
+/* Container and General Styles */
+.registration-container {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.registration-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.registration-box{
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.registration-box h2 {
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+
+/* Adjust input fields */
+.registration-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Two-column layout for name-row */
+.name-row {
+    display: flex;
+    gap: 10px;
+}
+
+.name-row input[type="text"] {
+    width: calc(50% - 5px); /* Adjusting width for two inputs in a row */
+}
+
+.registration-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.registration-box button:hover {
+    background-color: #e64a19;
+}
+
+.registration-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.registration-box p a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.registration-box p a:hover {
+    text-decoration: underline;
+}
+
+.errorWrap {
+    padding: 10px;
+    background-color: #dd3d36;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,90 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Section */
+.header-section {
+    background-color: #222429;
+    color: #fcf8e3;
+}
+
+/* Header Top */
+.header-top {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-info-wrapper {
+    display: flex;
+    gap: 15px; /* Space between profile items */
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-info a {
+    color: #fcf8e3;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.header-info a:hover {
+    color: #FB5B21;
+}
+
+/* Logo Styling */
+.site-logo {
+    color: #FB5B21;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Header Bottom */
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #222429;
+}
+
+/* Navigation Menu */
+.main-menu {
+    display: flex;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.main-menu ul li a {
+    color: #fcf8e3;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.main-menu ul li a:hover {
+    color: #FB5B21;
+    border-bottom: 2px solid #FB5B21;
+}

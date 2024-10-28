@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222429; /* Light background */
+    color: #F4F5F8; /* Text color */
+}
+
+.pricing-section {
+    padding: 60px 0; /* Add padding for spacing */
+}
+
+.section-title {
+    margin-bottom: 40px; /* Spacing below title */
+}
+
+.section-title h2 {
+    color: #FB5B21; /* Orange color for heading */
+    font-size: 32px; /* Adjust size */
+    margin-bottom: 10px; /* Space below heading */
+}
+.large-paragraph {
+    font-size: 20px; /* Adjust the size as needed */
+    line-height: 1.5; /* Optional: improve readability */
+}
+
+
+.section-title p {
+    font-size: 25px; /* Font size for description */
+}
+
+.pricing-item {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #FB5B21; /* Orange border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effects */
+    margin: 20px 0; /* Margin between cards */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.pricing-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+.pi-top h4 {
+    font-size: 20px; /* Font size for title */
+    color: #FB5B21; /* Orange color for titles */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.pi-price h3 {
+    font-size: 24px; /* Font size for price */
+    color: #222429; /* Text color */
+    margin-bottom: 5px; /* Space below price */
+}
+
+.pi-price p {
+    font-size: 14px; /* Font size for duration */
+    color: #666; /* Grey color for duration */
+}
+
+.pricing-item ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.pricing-item ul li {
+    margin-bottom: 10px; /* Space between list items */
+    color: #222429; /* List item text color */
+}
+
+.site-btn {
+    display: inline-block; /* Make button inline */
+    background-color: #FB5B21; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded button */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth background change */
+}
+
+.site-btn:hover {
+    display: inline-block; /* Make button inline */
+    background-color:#FB5B21 ; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded button */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth background change */
+}
